@@ -45,6 +45,7 @@ section{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: left;
+    background-size: cover;
 
 }
 
@@ -54,31 +55,34 @@ section{
 }
 .middle-bg{
     background-image: url(img/biography-bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     background-size: 100;
 }
 .work{
-    width: 28%;
+    width: 30%;
     margin-left: 30px;
     box-shadow: 10px 10px 30px gray;
 }
 .work-container{
-    margin-left: 10%;
-}
-.container-one{
-    padding-bottom: 8%;
-
+    text-align: center;
+    padding-bottom: 20px;
 }
 .latest-work{
-    height: 500px;
+    height: 400px;
     background-image: url(img/latest-work-bg.png);
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
+    padding: 8%;
 }
 .middle-footer{
     height: 500px;
     text-align: center;
+    background-image: url(img/footer-bg.png);
+    background-position: left;
+    background-size: cover;
 }
 .simple-text{
     font-size: 13px;
